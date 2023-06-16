@@ -1,8 +1,8 @@
 #!/bin/sh
 # Fastqc
 # qsub ./fastqc.sh /path/to/fastqs/
-#$ -o /home/crciv/AcerChrAssemb/AsemblyMapping/sra_data/$JOB_NAME.o$JOB_ID
-#$ -e /home/crciv/AcerChrAssemb/AsemblyMapping/sra_data/$JOB_NAME.e$JOB_ID
+#$ -o /sra_data/$JOB_NAME.o$JOB_ID
+#$ -e /sra_data/$JOB_NAME.e$JOB_ID
 # Load modules
 #module load star
 PATH=/usr/bin/bwa:$PATH

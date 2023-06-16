@@ -6,7 +6,7 @@
 #$ -o $JOB_NAME.o$JOB_ID
 #$ -e $JOB_NAME.e$JOB_ID
 PATH=$PATH:$HOME/soft/Flye/bin/
-PATH=$PATH:$HOME/crciv/anaconda3/bin/python
+PATH=$PATH:$HOME/anaconda3/bin/python
 PATH=$PATH:$HOME/anaconda3/lib/python3.8/site-packages/
 file=$1
 path_in=$2
